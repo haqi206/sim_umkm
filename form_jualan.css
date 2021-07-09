@@ -1,0 +1,249 @@
+@font-face{
+    font-family: 'Monserrat';
+    src: url('./Montserrat/Montserrat-Light.ttf')
+}
+@font-face{
+    font-family: "sansation";
+    src: url('./sansation/Sansation_Light.ttf');
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.navigasi{
+    margin: 0px;
+}
+.navbar1{
+    font-family: 'Monserrat';
+    text-align: right;
+    padding: 5px;  
+    margin-top: 0px;
+}
+li{
+    font-size: 16px;
+    padding: 15px 25px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+#judul{
+    font-weight: lighter;
+    float: left;
+    margin: 0;
+    font-size: 19px;
+    font-family: 'sansation';
+    letter-spacing: 2px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.dropdown{
+    display: none;
+}
+.menunya a:hover{
+    color: gray;
+}
+.divgambar{
+    position: relative;
+    margin-top: -16px;
+}
+#judul a:hover{
+    color: white;
+}
+/*
+.nav{
+    font-family: 'Monserrat';
+    text-align: right;
+    padding: 5px;  
+    margin-top: 0px;
+}
+div ul li{
+    padding: 5px;
+}
+li{
+    font-size: 16px;
+    padding: 15px 25px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+.theme{
+    font-weight: lighter;
+    margin: 0;
+    position: relative;
+    left: -835px;    
+    font-size: 19px;
+    font-family: 'sansation';
+    letter-spacing: 2px;
+}
+div ul .nav-item{
+    font-family: 'monserrat';
+    font-weight: bold;
+}*/
+#gambar1{
+    width: 100%;
+    filter: brightness(15%);
+}
+.divgambar p{
+    letter-spacing: 1.2px;
+    position: absolute;
+    text-align: center;
+    font-family: "Monserrat";
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    top: 175px;
+    left: 200px;
+}
+.form-isian form{
+    margin: 50px;
+}
+
+.footer{
+    background-color: #232323;
+}
+.footer footer p{
+    position: relative;
+    margin-bottom: -3px;
+    font-family: "monserrat";
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+    li{
+        font-size: 7.2px;
+        padding: 15px 25px;
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+    }
+    .navbar1 #judul{
+        padding: 5px 15px;
+        font-size: 10px;
+        top: 1px;
+    }
+    .inti{
+        display: none;
+    }
+    .divgambar p{
+        font-size: 7px;
+        top: 40px;
+        left: 2px;
+    }
+    .dropdown {
+        padding: 5px 15px;
+        font-size: 10px;
+        display: inline-block;
+        right: 100px;
+	}
+	.dropdown:hover .isi-dropdown {
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown a:hover{
+        text-decoration: none;
+    }
+	.isi-dropdown a:hover {
+		color: #fff;
+	}
+	.isi-dropdown {
+        display: inline;
+        text-align: center;
+        position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		background-color: #f9f9f9;
+	}
+	.isi-dropdown li a{
+        color: #3c3c3c;
+        position: relative;
+        right: 20px;
+	}
+	.isi-dropdown a:hover {
+		color: #232323;
+        background: #f3f3f3;
+        text-decoration: none;
+    }
+    .footer footer p{
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 425px) {
+    li{
+        font-size: 7.2px;
+        padding: 15px 25px;
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+    }
+    .navbar1 #judul{
+        padding: 5px 15px;
+        font-size: 10px;
+        top: 1px;
+    }
+    .inti{
+        display: none;
+    }
+    .divgambar p{
+        font-size: 7px;
+        top: 50px;
+        left: 20px;
+    }
+    .dropdown {
+        padding: 5px 15px;
+        font-size: 10px;
+        display: inline-block;
+        right: 10000px;
+	}
+	.dropdown:hover .isi-dropdown {
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown a:hover{
+        text-decoration: none;
+    }
+	.isi-dropdown a:hover {
+		color: #fff;
+	}
+	.isi-dropdown {
+        display: inline;
+        text-align: center;
+        position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		background-color: #f9f9f9;
+	}
+	.isi-dropdown li a{
+        color: #3c3c3c;
+        position: relative;
+        right: 20px;
+	}
+	.isi-dropdown a:hover {
+		color: #232323;
+        background: #f3f3f3;
+        text-decoration: none;
+    }
+    .footer footer p{
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 411px) and (min-height: 823px) {
+    .divgambar p{
+        left: 5px;
+        font-size: 8.5px;
+    }
+    .footer footer p{
+        font-size: 7.5px;
+    }
+}

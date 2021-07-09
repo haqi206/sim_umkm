@@ -1,0 +1,241 @@
+@font-face{
+    font-family: 'Monserrat';
+    src: url('./Montserrat/Montserrat-Light.ttf')
+}
+@font-face{
+    font-family: "sansation";
+    src: url('./sansation/Sansation_Light.ttf');
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.nav{
+    margin: 0px;
+}
+.navbar1{
+    font-family: 'Monserrat';
+    text-align: right;
+    padding: 5px;  
+    margin-top: 0px;
+}
+li{
+    font-size: 16px;
+    padding: 15px 25px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+#theme{
+    font-weight: lighter;
+    float: left;
+    margin: 0;
+    font-size: 19px;
+    font-family: 'sansation';
+    letter-spacing: 2px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.menu a:hover{
+    color: gray;
+}
+.divgambar{
+    position: relative;
+    margin-top: -16px;
+}
+.dropdown{
+    display: none;
+}
+#gambar1{
+    width: 100%;
+    filter: brightness(25%);
+}
+#logosvg{
+    position: absolute;
+    top: 500px;
+    left: 435px;
+    filter: contrast(100%);
+    height: 150px;
+    top: 90px;
+    left: 600px;
+}
+.divgambar #wa{
+    width: 40px;
+    position: absolute;
+    top: 310px;
+    left: 650px;
+}
+.divgambar #line{
+    width: 40px;
+    position: absolute;
+    top: 310px;
+    left: 725px;
+}
+.divgambar #telegram{
+    width: 40px;
+    position: absolute;
+    top: 310px;
+    left: 575px;
+}
+.divgambar a img{
+    transition: 0.3s ease;
+}
+.divgambar a img:hover{
+    transform: scale(1.1);
+}
+.divgambar p{
+    position: absolute;
+    text-align: center;
+    font-family: "Monserrat";
+    font-weight: bold;
+    color: white;
+    font-size: 27px;
+    top: 225px;
+    left: 590px;
+}
+.perhatian{
+    margin: 25px;
+    border: black solid 2px;
+    transition: 0.3s ease;
+}
+.perhatian:hover{
+    border: red solid 2px;
+    box-shadow: 0.5px 0.5px 5px 0.5px red;
+}
+.perhatian p{
+    line-height:25px;
+    font-weight: bold;
+    font-family: "monserrat";
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+.perhatian h2{
+    padding-top: 10px;
+    font-family: 'monserrat';
+    text-align: center;
+}
+.footer{
+    background-color: #232323;
+}
+.footer footer p{
+    position: relative;
+    margin-bottom: -3px;
+    font-family: "monserrat";
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+    li{
+        font-size: 7.2px;
+        padding: 15px 25px;
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+    }
+    .navbar1 #theme{
+        padding: 5px 15px;
+        font-size: 10px;
+        top: 1px;
+    }
+    .inti{
+        display: none;
+    }
+    .divgambar p{
+        font-size: 10px;
+        top: 45px;
+        left: 115px;
+    }
+    .divgambar #logosvg{
+        display: none;
+    }
+    .divgambar #telegram{
+        width: 15px;
+        top: 55px;
+        left: 190px;
+    }
+    .divgambar #wa{
+        width: 15px;
+        top: 55px;
+        left: 220px;
+    }
+    .divgambar #line{
+        width: 15px;
+        top: 55px;
+        left: 250px;
+    }
+    .perhatian{
+        font-size: 10px;
+    }
+    .perhatian p{
+        letter-spacing: 0px;
+    }
+    
+    .dropdown {
+        padding: 5px 15px;
+        font-size: 10px;
+        display: inline-block;
+        position: relative;;
+        right: 45px;
+	}
+	.dropdown:hover .isi-dropdown {
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown a:hover{
+        text-decoration: none;
+    }
+	.isi-dropdown a:hover {
+		color: #fff;
+	}
+	.isi-dropdown {
+        display: inline;
+        text-align: center;
+        position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: -33px;
+		background-color: #f9f9f9;
+	}
+	.isi-dropdown li a{
+        color: #3c3c3c;
+        position: relative;
+        right: 20px;
+	}
+	.isi-dropdown a:hover {
+		color: #232323;
+        background: #f3f3f3;
+        text-decoration: none;
+    }
+    .footer footer p{
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 411px) and (min-height: 823px) {
+    .perhatian{
+        margin-top: 50px;
+    }
+    .footer{
+        position: relative;
+        top: 60px;
+    }
+    .footer footer p{
+        font-size: 7px;
+    }
+    .footer footer p{
+        font-size: 7.5px;
+    }
+}

@@ -1,0 +1,204 @@
+@font-face{
+    font-family: 'Monserrat';
+    src: url('./Montserrat/Montserrat-Light.ttf')
+}
+@font-face{
+    font-family: "sansation";
+    src: url('./sansation/Sansation_Light.ttf');
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    height: 1000px;
+    background: #232323;
+}
+
+.body{
+    height: 100vh;
+    background-color: #232323;
+}
+.nav{
+    margin: 0px;
+}
+.navbar1{
+    font-family: 'Monserrat';
+    text-align: right;
+    padding: 5px;  
+    margin-top: 0px;
+}
+li{
+    font-size: 16px;
+    padding: 15px 25px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+#theme{
+    font-weight: lighter;
+    float: left;
+    margin: 0;
+    font-size: 19px;
+    font-family: 'sansation';
+    letter-spacing: 2px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.menu a:hover{
+    color: gray;
+}
+.dropdown{
+    display: none;
+}
+.divgambar{
+    position: relative;
+    margin-top: -16px;
+}
+
+.search {
+    padding:8px 15px;
+    background:rgba(207, 207, 207, 0.2);
+    border:0px solid #232323;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-4px;
+    border:2px solid white;
+    background-color:white;
+    color:#232323;
+}
+
+.footer{
+    background-color: #232323;
+}
+.footer footer p{
+    position: relative;
+    margin-bottom: -3px;
+    font-family: "monserrat";
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+
+
+ /* konten akun  */
+.box {
+    position: relative;
+width: 90%;
+height: 766px;
+left: 89px;
+top: 40px;
+
+background: #C4C4C4;
+border: 10px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.box h1{
+    position: absolute;
+width: 255px;
+height: 49px;
+left: 42%;
+top: 20px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+/* font-size: 40px; */
+line-height: 49px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.box h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+/* font-size: 40px; */
+line-height: 49px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.box p{
+    position: absolute;
+width: 431px;
+height: 319px;
+left: 96px;
+top: 186px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+
+.umkm{
+    position: absolute;
+width: 272px;
+height: 49px;
+left: 10%;
+top: 101px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+/* font-size: 40px; */
+line-height: 49px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.grafik{
+    position: absolute;
+width: 127px;
+height: 49px;
+left: 70%  ;
+top: 101px;
+}
+
+.laporan{
+    position: absolute;
+width: 440px;
+height: 80px;
+left: 85px;
+top: 619px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.chart{
+    width: 40%; 
+    height: 500px; 
+    margin-top: 186px; 
+    margin-left: 55%;
+}
